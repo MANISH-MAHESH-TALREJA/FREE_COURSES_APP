@@ -182,10 +182,10 @@ class _UdemyCoursesDetailPageState extends State<UdemyCoursesDetailPage> {
                   ),
                   Html(
                     data: '''${widget.data.courseDescription}''',
-                    defaultTextStyle: TextStyle(
+                   /* defaultTextStyle: TextStyle(
                         fontSize: 17,
                         fontWeight: FontWeight.w400,
-                        color: Colors.grey[800]),
+                        color: Colors.grey[800]),*/
                   ),
                   SizedBox(
                     height: 20,

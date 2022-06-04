@@ -25,10 +25,10 @@ class _HomePageState extends State<HomePage> {
   List<IconData> iconList = [
     Feather.home,
     Feather.youtube,
-    Feather.grid,
-    Feather.book_open,
-    Feather.bookmark,
-    Feather.user
+    //Feather.grid,
+    //Feather.book_open,
+    //Feather.bookmark,
+    //Feather.user
   ];
   DateTime currentBackPressTime;
   Future<bool> onWillPop()
@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
     if (currentBackPressTime == null || now.difference(currentBackPressTime) > Duration(seconds: 2))
     {
       currentBackPressTime = now;
-      Toast.show("PRESS BACK BUTTON AGAIN TO EXIT", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
+      Toast.show("PRESS BACK BUTTON AGAIN TO EXIT", duration: Toast.lengthShort, gravity:  Toast.bottom);
       return Future.value(false);
     }
     return Future.value(true);
@@ -101,10 +101,10 @@ class _HomePageState extends State<HomePage> {
           children: <Widget>[
             ExploreCourses(),
             VideoCoursesPage(),
-            CourseCategoriesPage(),
-            TechnicalBlogPage(),
-            BookmarkedCoursesPage(),
-            ProfilePage(),
+            //CourseCategoriesPage(),
+            //TechnicalBlogPage(),
+            //BookmarkedCoursesPage(),
+            //ProfilePage(),
           ],
         ),
       ),

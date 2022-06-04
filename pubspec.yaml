@@ -11,34 +11,34 @@ dependencies:
   flutter:
     sdk: flutter
 
-  avatar_glow: ^2.0.1
-  in_app_update: ^2.0.0
-  animated_bottom_navigation_bar: ^0.1.3
-  cached_network_image: ^3.0.0
-  carousel_pro: ^1.0.0
-  cloud_firestore: ^2.2.0
-  connectivity: ^3.0.6
-  dots_indicator: ^2.0.0
-  firebase_auth: ^1.2.0
-  firebase_core: ^1.2.0
-  firebase_messaging: ^10.0.0
-  flutter_html: ^0.11.1
-  flutter_icons: ^1.1.0
-  google_fonts: ^2.1.0
-  google_sign_in: ^5.0.4
+  avatar_glow: ^2.0.2
+  in_app_update: ^3.0.0                             #Only For Android
+  animated_bottom_navigation_bar: ^0.3.3
+  cached_network_image: ^3.2.1
+  carousel_pro: ^1.0.0                              #Discontinued Plugin
+  cloud_firestore: ^3.1.17
+  connectivity: ^3.0.6                              #Discontinued Plugin
+  dots_indicator: ^2.1.0
+  firebase_auth: ^3.3.19
+  firebase_core: ^1.17.1
+  firebase_messaging: ^11.4.1
+  flutter_html: ^3.0.0-alpha.3
+  flutter_icons: ^1.1.0                             #Discontinued Plugin
+  google_fonts: ^3.0.1
+  google_sign_in: ^5.3.2
   line_icons: ^2.0.1
-  provider: ^5.0.0
-  share: ^2.0.4
-  md2_tab_indicator: ^1.0.2
+  provider: ^6.0.3
+  share: ^2.0.4                                     #Discontinued Plugin
+  md2_tab_indicator: ^1.0.2                         #Discontinued Plugin
   html_unescape: ^2.0.0
-  flutter_widget_from_html: ^0.6.1
-  shared_preferences: ^2.0.6
+  flutter_widget_from_html: ^0.8.5
+  shared_preferences: ^2.0.15
   skeleton_text: ^3.0.0
-  flutter_facebook_login: ^3.0.0
-  toast: ^0.1.5
-  url_launcher: ^6.0.4
-  introduction_screen: ^2.1.0
-  youtube_player_flutter: ^8.0.0
+  flutter_facebook_login: ^3.0.0                    #Discontinued Plugin
+  toast: ^0.3.0
+  url_launcher: ^6.1.2
+  introduction_screen: ^3.0.2
+  youtube_player_flutter: ^8.1.0                    #Not For Web
   focused_menu: ^1.0.5
 
 dev_dependencies:

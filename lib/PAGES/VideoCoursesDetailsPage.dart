@@ -347,10 +347,10 @@ class _BlogDetailsState extends State<VideoCoursesDetailsPage> {
                       height: 15,
                     ),
                     Html(
-                        defaultTextStyle: TextStyle(
+                        /*defaultTextStyle: TextStyle(
                             fontSize: 17,
                             fontWeight: FontWeight.w400,
-                            color: Colors.grey[800]),
+                            color: Colors.grey[800]),*/
                         data: '''  ${d.description}   '''),
                     SizedBox(
                       height: 20,
